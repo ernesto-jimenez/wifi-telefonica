@@ -1,0 +1,6 @@
+.DS_Store
+WifiWeb/images/maps/*.png
+WifiWeb/places.js
+build/*
+project.xcodeproj/hydrus.*
+project.xcodeproj/enzo.*
