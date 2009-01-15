@@ -1,4 +1,5 @@
 .DS_Store
+WifiWeb/images/maps
 WifiWeb/images/maps/*.png
 WifiWeb/places.js
 build/*
