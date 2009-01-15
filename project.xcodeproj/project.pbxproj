@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		C63E76520E81418E00553386 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63E76480E81418E00553386 /* MainWindow.xib */; };
+		C63E76530E81418E00553386 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E76490E81418E00553386 /* main.m */; };
+		C63E76540E81418E00553386 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E764A0E81418E00553386 /* Helpers.m */; };
+		C63E76550E81418E00553386 /* big5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63E764D0E81418E00553386 /* big5ViewController.xib */; };
+		C63E76560E81418E00553386 /* big5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E764E0E81418E00553386 /* big5ViewController.m */; };
+		C63E76570E81418E00553386 /* big5AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C63E76500E81418E00553386 /* big5AppDelegate.m */; };
+		C63E765D0E8141E800553386 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C63E765C0E8141E800553386 /* Icon.png */; };
+		C66B71BA0E87E6CB0085D866 /* js in Resources */ = {isa = PBXBuildFile; fileRef = C66B71B70E87E6CB0085D866 /* js */; };
+		C6FCC1B80E5DAD6900B79431 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FCC1B70E5DAD6800B79431 /* AudioToolbox.framework */; };
+		C6FCC1C70E5DAE4F00B79431 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FCC1C60E5DAE4F00B79431 /* CoreLocation.framework */; };
+		E56F0DCF0EFD578400D93621 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E56F0DCE0EFD578400D93621 /* Default.png */; };
+		E5DDA9D00ED07A1200CDD0F3 /* WifiWeb in Resources */ = {isa = PBXBuildFile; fileRef = E5DDA9930ED07A1200CDD0F3 /* WifiWeb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C63E76480E81418E00553386 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C63E76490E81418E00553386 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C63E764A0E81418E00553386 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		C63E764B0E81418E00553386 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		C63E764C0E81418E00553386 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C63E764D0E81418E00553386 /* big5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = big5ViewController.xib; sourceTree = "<group>"; };
+		C63E764E0E81418E00553386 /* big5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = big5ViewController.m; sourceTree = "<group>"; };
+		C63E764F0E81418E00553386 /* big5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big5ViewController.h; sourceTree = "<group>"; };
+		C63E76500E81418E00553386 /* big5AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = big5AppDelegate.m; sourceTree = "<group>"; };
+		C63E76510E81418E00553386 /* big5AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big5AppDelegate.h; sourceTree = "<group>"; };
+		C63E765B0E8141C100553386 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		C63E765C0E8141E800553386 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C645C1C30E8147330099DD0F /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66B71B70E87E6CB0085D866 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		C6FCC1B70E5DAD6800B79431 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		C6FCC1C60E5DAE4F00B79431 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E56F0DCE0EFD578400D93621 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E5DDA9930ED07A1200CDD0F3 /* WifiWeb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WifiWeb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				C6FCC1B80E5DAD6900B79431 /* AudioToolbox.framework in Frameworks */,
+				C6FCC1C70E5DAE4F00B79431 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E5DDA9930ED07A1200CDD0F3 /* WifiWeb */,
+				C63E765B0E8141C100553386 /* Settings.h */,
+				C66B71B70E87E6CB0085D866 /* js */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C63E76580E81419700553386 /* Common */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				C63E767F0E81435A00553386 /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				C63E765C0E8141E800553386 /* Icon.png */,
+				E56F0DCE0EFD578400D93621 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FCC1C60E5DAE4F00B79431 /* CoreLocation.framework */,
+				C6FCC1B70E5DAD6800B79431 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63E76580E81419700553386 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C63E76490E81418E00553386 /* main.m */,
+				C63E764A0E81418E00553386 /* Helpers.m */,
+				C63E764B0E81418E00553386 /* Helpers.h */,
+				C63E764C0E81418E00553386 /* Constants.h */,
+				C63E764E0E81418E00553386 /* big5ViewController.m */,
+				C63E764F0E81418E00553386 /* big5ViewController.h */,
+				C63E76500E81418E00553386 /* big5AppDelegate.m */,
+				C63E76510E81418E00553386 /* big5AppDelegate.h */,
+				C63E76480E81418E00553386 /* MainWindow.xib */,
+				C63E764D0E81418E00553386 /* big5ViewController.xib */,
+			);
+			name = Common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		C63E767F0E81435A00553386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C645C1C30E8147330099DD0F /* project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Telefonica WiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Telefonica WiFi" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				C65D0FA00E793D1C006E9A84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telefonica WiFi";
+			productName = big5;
+			productReference = C645C1C30E8147330099DD0F /* project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "project" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = C63E767F0E81435A00553386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Telefonica WiFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63E76520E81418E00553386 /* MainWindow.xib in Resources */,
+				C63E76550E81418E00553386 /* big5ViewController.xib in Resources */,
+				C63E765D0E8141E800553386 /* Icon.png in Resources */,
+				C66B71BA0E87E6CB0085D866 /* js in Resources */,
+				E5DDA9D00ED07A1200CDD0F3 /* WifiWeb in Resources */,
+				E56F0DCF0EFD578400D93621 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		C65D0FA00E793D1C006E9A84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63E76530E81418E00553386 /* main.m in Sources */,
+				C63E76540E81418E00553386 /* Helpers.m in Sources */,
+				C63E76560E81418E00553386 /* big5ViewController.m in Sources */,
+				C63E76570E81418E00553386 /* big5AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = common/big5Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = project;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = common/big5Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = project;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ernesto Jimenez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ernesto Jimenez";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Scope24;
+				PROVISIONING_PROFILE = "AC6A8184-7C76-43EF-B52D-775AFF9E27FB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC6A8184-7C76-43EF-B52D-775AFF9E27FB";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ernesto Jimenez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ernesto Jimenez";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = "Big Five";
+				PROVISIONING_PROFILE = "AC6A8184-7C76-43EF-B52D-775AFF9E27FB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC6A8184-7C76-43EF-B52D-775AFF9E27FB";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+		C6FCBF190E5D5BAB00B79431 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ernesto Jimenez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ernesto Jimenez";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = "Big Five";
+				PROVISIONING_PROFILE = "4C5D7862-CA37-461F-B073-E4EC0DA84F16";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4C5D7862-CA37-461F-B073-E4EC0DA84F16";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		C6FCBF1A0E5D5BAB00B79431 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = common/big5Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = project;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Telefonica WiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C6FCBF1A0E5D5BAB00B79431 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C6FCBF190E5D5BAB00B79431 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
